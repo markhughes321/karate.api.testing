@@ -1,0 +1,10 @@
+{
+  "heniMentions": "#number",
+  "heniNftMentions": "#number",
+  "heniProfileMentions": "#number",
+  "heniShowsMentions": "#number",
+  "marketSales": "#number",
+  "heniScore": "#number",
+  "datePeriod": "#regex (WEEKLY|MONTHLY)",
+  "__typename": "DashboardHeadline"
+}

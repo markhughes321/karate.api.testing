@@ -1,0 +1,21 @@
+{
+  "id": "#notnull",
+  "artists": "#array",
+  "attribution": "##string",
+  "categories": "##array",
+  "contentLang": "#string",
+  "description": "#string",
+  "domain": "#string",
+  "favicon": "##string",
+  "geotag": "##string",
+  "imageUrl": "##string",
+  "published": true,
+  "publishDate": "#string",
+  "tags": "##array",
+  "title": "#string",
+  "url": "#string",
+  "visibility": "#string",
+  "dateCreated": "#string",
+  "dateUpdated": "#string",
+  "__typename": "Article"
+}

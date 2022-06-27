@@ -1,0 +1,5 @@
+{
+  "operationName": "ListArticles",
+  "variables": {},
+  "query": "query ListArticles($apiVersion: String, $endDate: String, $startDate: String, $limit: Int!, $visibility: String!, $paginationToken: String, $published: Boolean) {\n  listArticles(\n    apiVersion: $apiVersion\n    endDate: $endDate\n    startDate: $startDate\n    limit: $limit\n    visibility: $visibility\n    paginationToken: $paginationToken\n    published: $published\n  ) {\n    articles {\n      ...Article_v1\n      __typename\n    }\n    paginationToken\n    __typename\n  }\n}\n\nfragment Article_v1 on Article {\n  id\n  artists\n  attribution\n  categories\n  contentLang\n  description\n  domain\n  favicon\n  geotag\n  imageUrl\n  published\n  publishDate\n  tags\n  title\n  url\n  visibility\n  dateCreated\n  dateUpdated\n  __typename\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "operationName": "SetUserPrefs",
+  "variables": {
+    "savedTags": []
+  },
+  "query": "mutation SetUserPrefs($newsletterOptIn: Boolean, $savedTags: [UserPrefsTagInput]) {\n  setUserPrefs(prefs: {newsletterOptIn: $newsletterOptIn, savedTags: $savedTags}) {\n    newsletterOptIn\n    savedTags {\n      type\n      value\n      __typename\n    }\n    __typename\n  }\n}"
+}

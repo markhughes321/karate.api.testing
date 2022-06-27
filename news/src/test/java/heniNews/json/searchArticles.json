@@ -1,0 +1,5 @@
+{
+  "operationName": "SearchArticles",
+  "variables": {},
+  "query": "query SearchArticles($apiVersion: String, $artist: String, $category: String, $geotag: String, $limit: Int!, $endDate: String, $startDate: String, $visibility: String!, $phrase: String, $field: String, $paginationToken: String, $published: Boolean) {\n  searchArticles(\n    apiVersion: $apiVersion\n    artist: $artist\n    category: $category\n    geotag: $geotag\n    limit: $limit\n    endDate: $endDate\n    startDate: $startDate\n    visibility: $visibility\n    phrase: $phrase\n    field: $field\n    paginationToken: $paginationToken\n    published: $published\n  ) {\n    articles {\n      ...Article_v1\n      __typename\n    }\n    paginationToken\n    __typename\n  }\n}\n\nfragment Article_v1 on Article {\n  id\n  artists\n  attribution\n  categories\n  contentLang\n  description\n  domain\n  favicon\n  geotag\n  imageUrl\n  published\n  publishDate\n  tags\n  title\n  url\n  visibility\n  dateCreated\n  dateUpdated\n  __typename\n}"
+}

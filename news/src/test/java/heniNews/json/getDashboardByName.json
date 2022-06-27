@@ -1,0 +1,5 @@
+{
+  "operationName": "GetDashboardByName",
+  "variables": {},
+  "query": "query GetDashboardByName($name: String!) {\n  getDashboardByName(name: $name) {\n    name\n    type\n    data {\n      headline {\n        heniMentions\n        heniNftMentions\n        heniProfileMentions\n        heniShowsMentions\n        marketSales\n        heniScore\n        datePeriod\n        __typename\n      }\n      timeseries {\n        date\n        heniMentions\n        heniNftMentions\n        heniProfileMentions\n        heniShowsMentions\n        marketSales\n        heniScore\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}"
+}

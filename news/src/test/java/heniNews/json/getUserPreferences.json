@@ -1,0 +1,5 @@
+{
+  "operationName": "GetUserPrefs",
+  "variables": {},
+  "query": "query GetUserPrefs {\n  getUserPrefs {\n    newsletterOptIn\n    savedTags {\n      type\n      value\n      __typename\n    }\n    __typename\n  }\n}"
+}
