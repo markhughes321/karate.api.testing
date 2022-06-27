@@ -1,4 +1,4 @@
-package heniNews;
+package resources;
 
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
@@ -16,7 +16,7 @@ class TestParallel {
 
     @Test
     void testParallel() {
-        Results results = Runner.path("classpath:steps")
+        Results results = Runner.path("classpath:resources/steps")
                 .outputCucumberJson(true)
                 .parallel(20);
         generateReport(results.getReportDir());

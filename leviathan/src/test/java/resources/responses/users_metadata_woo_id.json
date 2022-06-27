@@ -1,0 +1,150 @@
+{
+    "custom": "usermeta_by_woo_id",
+    "user": {
+        "nickname": [
+            "jshine"
+        ],
+        "first_name": [
+            "Justin"
+        ],
+        "last_name": [
+            "Shine"
+        ],
+        "description": [
+            ""
+        ],
+        "rich_editing": [
+            "true"
+        ],
+        "syntax_highlighting": [
+            "true"
+        ],
+        "comment_shortcuts": [
+            "false"
+        ],
+        "admin_color": [
+            "fresh"
+        ],
+        "use_ssl": [
+            "0"
+        ],
+        "show_admin_bar_front": [
+            "true"
+        ],
+        "locale": [
+            ""
+        ],
+        "wp_capabilities": [
+            "a:1:{s:13:\"administrator\";b:1;}"
+        ],
+        "wp_user_level": [
+            "10"
+        ],
+        "dismissed_wp_pointers": [
+            ""
+        ],
+        "show_welcome_panel": [
+            "1"
+        ],
+        "session_tokens": [
+            "a:2:{s:64:\"3c2cc561de18a478d510e29506bf682b8b27b55129e689b7d6f8555548098a1c\";a:4:{s:10:\"expiration\";i:1657190851;s:2:\"ip\";s:14:\"52.208.119.168\";s:2:\"ua\";s:84:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:101.0) Gecko/20100101 Firefox/101.0\";s:5:\"login\";i:1655981251;}s:64:\"70b3fe77343e4a4f061eda5cac1a4c0b0b8907ce47c2de784235129d091d2edd\";a:4:{s:10:\"expiration\";i:1657268397;s:2:\"ip\";s:14:\"52.208.119.168\";s:2:\"ua\";s:117:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36\";s:5:\"login\";i:1656058797;}}"
+        ],
+        "wp_dashboard_quick_press_last_post_id": [
+            "40043"
+        ],
+        "community-events-location": [
+            "a:1:{s:2:\"ip\";s:12:\"52.208.119.0\";}"
+        ],
+        "_woocommerce_tracks_anon_id": [
+            "woo:X4O1JZb3wFXpyaRqQHUAgdgt"
+        ],
+        "wc_last_active": [
+            "1656028800",
+            "1656028800"
+        ],
+        "jetpack_tracks_anon_id": [
+            "jetpack:S1eIUSf8qrHudCbhIKm49sbP"
+        ],
+        "dismissed_no_secure_connection_notice": [
+            "1"
+        ],
+        "_wcs_subscription_ids_cache": [
+            "a:0:{}"
+        ],
+        "_application_passwords": [
+            "a:1:{i:0;a:7:{s:4:\"uuid\";s:36:\"70c75f9b-5412-4248-9283-97306b4e842b\";s:6:\"app_id\";s:0:\"\";s:4:\"name\";s:24:\"thirdparty_app_connector\";s:8:\"password\";s:34:\"$P$ByGgdJQ0TkvlwjHH/Tg8uVKXvL26.5/\";s:7:\"created\";i:1649330357;s:9:\"last_used\";i:1651681975;s:7:\"last_ip\";s:9:\"127.0.0.1\";}}"
+        ],
+        "elementor_admin_notices": [
+            "a:1:{s:19:\"woocommerce_promote\";s:4:\"true\";}"
+        ],
+        "last_update": [
+            "1655113962"
+        ],
+        "billing_first_name": [
+            "Justin"
+        ],
+        "billing_last_name": [
+            "Shine"
+        ],
+        "billing_company": [
+            "Shine Enterprises"
+        ],
+        "billing_address_1": [
+            "2162 24th Ave"
+        ],
+        "billing_city": [
+            "San Francisco"
+        ],
+        "billing_state": [
+            "CA"
+        ],
+        "billing_postcode": [
+            "94116"
+        ],
+        "billing_country": [
+            "US"
+        ],
+        "billing_email": [
+            "j.shine@heni.com"
+        ],
+        "billing_phone": [
+            "252345234532"
+        ],
+        "shipping_first_name": [
+            "Justin"
+        ],
+        "shipping_last_name": [
+            "Shine"
+        ],
+        "shipping_company": [
+            "Shine Enterprises"
+        ],
+        "shipping_address_1": [
+            "2162 24th Ave"
+        ],
+        "shipping_city": [
+            "San Francisco"
+        ],
+        "shipping_state": [
+            "CA"
+        ],
+        "shipping_postcode": [
+            "94116"
+        ],
+        "shipping_country": [
+            "US"
+        ],
+        "shipping_method": [
+            ""
+        ],
+        "paying_customer": [
+            "1"
+        ],
+        "wp__stripe_customer_id": [
+            "cus_Lrtj2ObnMUiQPo"
+        ],
+        "_woocommerce_persistent_cart_1": [
+            "a:1:{s:4:\"cart\";a:0:{}}"
+        ]
+    }
+}

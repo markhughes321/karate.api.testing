@@ -8,6 +8,7 @@ function fn() {
     env: env,
   }
   if (env == 'dev') {
+    config.leviathanUrl = 'http://34.240.237.62/wp-json/wc/v3/'
   } 
   else if (env == 'eph') {
     // customize
