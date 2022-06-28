@@ -6,6 +6,7 @@ Background:
   * url leviathanUrl
   * params { display_name: 'Mark H', nickname: 'QA Expert', email: 'test@gmail.com', url: 'www.google.com', user_id: 12, first_name: 'Mark', second_name: 'Hughes', description: 'Test' }
 
+@UsersWooIdUpdateOk 
 Scenario: Update a users Woo ID
   Given path 'users_woo_id_update'
   When method POST
