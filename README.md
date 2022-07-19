@@ -28,6 +28,7 @@ mvn test
 mvn clean test
 
 # Runs project by folder name:
+mvn clean test -pl :analytics
 mvn clean test -pl :leviathan
 mvn clean test -pl :news
 

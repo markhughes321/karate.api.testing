@@ -1,0 +1,15 @@
+query {
+  listCollectionStats(limit: 1, period: last_day) {
+    buyers
+    collectionAddress
+    collectionName
+    icons
+    nftsTraded
+    order
+    owners
+    period
+    salesGraph
+    volumeUSD
+    volumeETH
+    }
+}

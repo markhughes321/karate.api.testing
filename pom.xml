@@ -10,6 +10,7 @@
     <modules>
         <module>news</module>
         <module>leviathan</module>
+        <module>analytics</module>
     </modules>
 
 </project>
